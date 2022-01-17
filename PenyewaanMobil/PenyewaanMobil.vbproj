@@ -117,30 +117,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Mobil.Designer.vb">
-      <DependentUpon>Mobil.vb</DependentUpon>
-      <Link>Mobil.Designer.vb</Link>
-    </Compile>
-    <Compile Include="..\..\Mobil.vb">
-      <SubType>Form</SubType>
-      <Link>Mobil.vb</Link>
-    </Compile>
-    <Compile Include="Pengembalian.Designer.vb">
-      <DependentUpon>Pengembalian.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Pengembalian.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Sewa.Designer.vb">
       <DependentUpon>Sewa.vb</DependentUpon>
     </Compile>
     <Compile Include="Sewa.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Penyewa.Designer.vb">
-      <DependentUpon>Penyewa.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Penyewa.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="JenisMobil.Designer.vb">
@@ -185,6 +165,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Users.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="JenisMobil.resx">
@@ -196,21 +177,11 @@
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\..\Mobil.resx">
-      <DependentUpon>Mobil.vb</DependentUpon>
-      <Link>Mobil.resx</Link>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pengembalian.resx">
-      <DependentUpon>Pengembalian.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Penyewa.resx">
-      <DependentUpon>Penyewa.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registrasi.resx">
       <DependentUpon>Registrasi.vb</DependentUpon>

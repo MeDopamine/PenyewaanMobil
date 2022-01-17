@@ -88,7 +88,7 @@ Public Class Main
     End Sub
 
     Private Sub MobilToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MobilToolStripMenuItem.Click
-        Mobil.Show()
+        'Mobil.Show()
     End Sub
 
     Private Sub JenisMobilToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles JenisMobilToolStripMenuItem.Click
@@ -96,7 +96,7 @@ Public Class Main
     End Sub
 
     Private Sub PenyewaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenyewaToolStripMenuItem.Click
-        Penyewa.Show()
+        'Penyewa.Show()
     End Sub
 
     Private Sub SewaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SewaToolStripMenuItem.Click
