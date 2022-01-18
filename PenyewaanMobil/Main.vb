@@ -87,8 +87,21 @@ Public Class Main
         Me.Visible = False
     End Sub
 
+<<<<<<< HEAD
     Private Sub PenyewaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenyewaToolStripMenuItem.Click
         FormPenyewa.Show()
+=======
+    Private Sub MobilToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MobilToolStripMenuItem.Click
+        'Mobil.Show()
+    End Sub
+
+    Private Sub JenisMobilToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles JenisMobilToolStripMenuItem.Click
+        JenisMobil.Show()
+    End Sub
+
+    Private Sub PenyewaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenyewaToolStripMenuItem.Click
+        'Penyewa.Show()
+>>>>>>> 4da48483700065c9f01f8b008ec54e34aefb8a01
     End Sub
 
 
