@@ -88,7 +88,7 @@ Public Class Main
     End Sub
 
     Private Sub PenyewaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenyewaToolStripMenuItem.Click
-        FormPenyewa.Show()
+        Penyewa.Show()
     End Sub
 
 

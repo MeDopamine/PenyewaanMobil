@@ -6,12 +6,12 @@
         InitializeComponent()
 
         ' Add any initialization after the InitializeComponent() call.
-        LbNama.Text = FormPenyewa.penyewa.GSNamaPenyewa
-        LbNIK.Text = FormPenyewa.penyewa.GSNikPenyewa
-        LbAlamat.Text = FormPenyewa.penyewa.GSAlamatPenyewa
+        LbNama.Text = Penyewa.penyewa.GSNamaPenyewa
+        LbNIK.Text = Penyewa.penyewa.GSNikPenyewa
+        LbAlamat.Text = Penyewa.penyewa.GSAlamatPenyewa
     End Sub
     Private Sub BtnSimpan_Click(sender As Object, e As EventArgs) Handles BtnOK.Click
-        FormPenyewa.penyewa.AddPenyewaDatabase(FormPenyewa.penyewa.GSNamaPenyewa, FormPenyewa.penyewa.GSNikPenyewa, FormPenyewa.penyewa.GSAlamatPenyewa)
+        Penyewa.penyewa.AddPenyewaDatabase(Penyewa.penyewa.GSNamaPenyewa, Penyewa.penyewa.GSNikPenyewa, Penyewa.penyewa.GSAlamatPenyewa)
 
         Me.Close()
     End Sub
