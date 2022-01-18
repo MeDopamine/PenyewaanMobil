@@ -117,10 +117,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Mobil.Designer.vb">
-      <DependentUpon>Mobil.vb</DependentUpon>
-      <Link>Mobil.Designer.vb</Link>
+    <Compile Include="FormPenyewa.Designer.vb">
+      <DependentUpon>FormPenyewa.vb</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="..\..\Mobil.vb">
       <SubType>Form</SubType>
       <Link>Mobil.vb</Link>
@@ -141,6 +141,21 @@
       <DependentUpon>JenisMobil.vb</DependentUpon>
     </Compile>
     <Compile Include="JenisMobil.vb">
+=======
+    <Compile Include="FormPenyewa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoTambahPenyewa.Designer.vb">
+      <DependentUpon>InfoTambahPenyewa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoTambahPenyewa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoUbahPenyewa.Designer.vb">
+      <DependentUpon>InfoUbahPenyewa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoUbahPenyewa.vb">
+>>>>>>> c620e7dda44982c34a9cb67de8e57692b856d125
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.vb">
@@ -157,6 +172,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Connection.vb" />
+    <Compile Include="PenyewaClass.vb" />
     <Compile Include="Registrasi.Designer.vb">
       <DependentUpon>Registrasi.vb</DependentUpon>
     </Compile>
@@ -179,8 +195,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="JenisMobil.resx">
-      <DependentUpon>JenisMobil.vb</DependentUpon>
+    <EmbeddedResource Include="InfoTambahPenyewa.resx">
+      <DependentUpon>InfoTambahPenyewa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoUbahPenyewa.resx">
+      <DependentUpon>InfoUbahPenyewa.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -188,27 +207,17 @@
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\..\Mobil.resx">
-      <DependentUpon>Mobil.vb</DependentUpon>
-      <Link>Mobil.resx</Link>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pengembalian.resx">
-      <DependentUpon>Pengembalian.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Penyewa.resx">
-      <DependentUpon>Penyewa.vb</DependentUpon>
+    <EmbeddedResource Include="FormPenyewa.resx">
+      <DependentUpon>FormPenyewa.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registrasi.resx">
       <DependentUpon>Registrasi.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sewa.resx">
-      <DependentUpon>Sewa.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
