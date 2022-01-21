@@ -117,75 +117,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Compile Include="FormPenyewa.Designer.vb">
-      <DependentUpon>FormPenyewa.vb</DependentUpon>
-    </Compile>
-<<<<<<< HEAD
-    <Compile Include="..\..\Mobil.vb">
-      <SubType>Form</SubType>
-      <Link>Mobil.vb</Link>
-    </Compile>
-    <Compile Include="Pengembalian.Designer.vb">
-      <DependentUpon>Pengembalian.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Pengembalian.vb" />
-    <Compile Include="Sewa.Designer.vb">
-      <DependentUpon>Sewa.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Sewa.vb" />
-    <Compile Include="Penyewa.Designer.vb">
-      <DependentUpon>Penyewa.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Penyewa.vb" />
-=======
-    <Compile Include="Sewa.Designer.vb">
-      <DependentUpon>Sewa.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Sewa.vb">
-      <SubType>Form</SubType>
-    </Compile>
->>>>>>> 4da48483700065c9f01f8b008ec54e34aefb8a01
-    <Compile Include="JenisMobil.Designer.vb">
-      <DependentUpon>JenisMobil.vb</DependentUpon>
-    </Compile>
-    <Compile Include="JenisMobil.vb">
-=======
-    <Compile Include="FormPenyewa.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoTambahPenyewa.Designer.vb">
-      <DependentUpon>InfoTambahPenyewa.vb</DependentUpon>
-    </Compile>
-    <Compile Include="InfoTambahPenyewa.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InfoUbahPenyewa.Designer.vb">
-      <DependentUpon>InfoUbahPenyewa.vb</DependentUpon>
-    </Compile>
-    <Compile Include="InfoUbahPenyewa.vb">
->>>>>>> c620e7dda44982c34a9cb67de8e57692b856d125
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main.Designer.vb">
-      <DependentUpon>Main.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Main.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.vb">
-      <DependentUpon>Login.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Connection.vb" />
-    <Compile Include="PenyewaClass.vb" />
-    <Compile Include="Registrasi.Designer.vb">
-      <DependentUpon>Registrasi.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Registrasi.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -202,35 +133,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Users.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="InfoTambahPenyewa.resx">
-      <DependentUpon>InfoTambahPenyewa.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InfoUbahPenyewa.resx">
-      <DependentUpon>InfoUbahPenyewa.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="FormPenyewa.resx">
-      <DependentUpon>FormPenyewa.vb</DependentUpon>
-    </EmbeddedResource>
-=======
->>>>>>> 4da48483700065c9f01f8b008ec54e34aefb8a01
-    <EmbeddedResource Include="Registrasi.resx">
-      <DependentUpon>Registrasi.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
