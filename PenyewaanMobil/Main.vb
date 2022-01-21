@@ -42,7 +42,7 @@ Public Class Main
 
         connect()
         sqlCmd.Connection = sqlConn
-        sqlCmd.CommandText = "select * from dbpenyewaanmobil.mobil"
+        sqlCmd.CommandText = "select * from dbpenyewaanmobil.penyewa"
 
         sqlDr = sqlCmd.ExecuteReader
         sqlDt.Load(sqlDr)
@@ -54,12 +54,11 @@ Public Class Main
         Else
             Me.SewaToolStripMenuItem.Visible = False
         End If
-
     End Sub
 
     Public Sub updateTable()
 
-        connect()
+        Connection.connect()
 
         Dim sqlDts As New DataTable
 
@@ -83,16 +82,12 @@ Public Class Main
     End Sub
 
     Private Sub LOGINToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGINToolStripMenuItem.Click
-        Login.Show()
+        'Login.Show()
         Me.Visible = False
     End Sub
 
-<<<<<<< HEAD
-    Private Sub PenyewaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenyewaToolStripMenuItem.Click
-        FormPenyewa.Show()
-=======
     Private Sub MobilToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MobilToolStripMenuItem.Click
-        'Mobil.Show()
+        Mobil.Show()
     End Sub
 
     Private Sub JenisMobilToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles JenisMobilToolStripMenuItem.Click
@@ -101,9 +96,11 @@ Public Class Main
 
     Private Sub PenyewaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenyewaToolStripMenuItem.Click
         'Penyewa.Show()
->>>>>>> 4da48483700065c9f01f8b008ec54e34aefb8a01
     End Sub
 
+    Private Sub SewaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SewaToolStripMenuItem.Click
+        'Sewa.Show()
+    End Sub
 
     Private Sub LOGOUTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGOUTToolStripMenuItem.Click
 
