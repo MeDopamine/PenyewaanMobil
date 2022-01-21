@@ -82,7 +82,7 @@ Public Class Main
     End Sub
 
     Private Sub LOGINToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGINToolStripMenuItem.Click
-        'Login.Show()
+        Login.Show()
         Me.Visible = False
     End Sub
 
@@ -95,11 +95,11 @@ Public Class Main
     End Sub
 
     Private Sub PenyewaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenyewaToolStripMenuItem.Click
-        'Penyewa.Show()
+        Penyewa.Show()
     End Sub
 
     Private Sub SewaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SewaToolStripMenuItem.Click
-        'Sewa.Show()
+        Sewa.Show()
     End Sub
 
     Private Sub LOGOUTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGOUTToolStripMenuItem.Click
