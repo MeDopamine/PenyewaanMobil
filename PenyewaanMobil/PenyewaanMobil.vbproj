@@ -123,18 +123,6 @@
     <Compile Include="Sewa.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JenisMobil.Designer.vb">
-      <DependentUpon>JenisMobil.vb</DependentUpon>
-    </Compile>
-    <Compile Include="JenisMobil.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main.Designer.vb">
-      <DependentUpon>Main.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Main.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -168,14 +156,8 @@
     <Compile Include="Users.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="JenisMobil.resx">
-      <DependentUpon>JenisMobil.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
